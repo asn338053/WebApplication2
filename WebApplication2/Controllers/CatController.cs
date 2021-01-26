@@ -13,5 +13,10 @@ namespace WebApplication2.Controllers
         {
             return View();
         }
+        public ActionResult Intro()
+        {
+            var i = 0;
+            return View();
+        }
     }
 }
